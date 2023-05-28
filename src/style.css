@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* add font */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-style: normal;
+  src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-style: italic;
+  src: url(assets/fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-style: normal;
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-style: italic;
+  src: url(assets/fonts/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-style: normal;
+  src: url(assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-style: italic;
+  src: url(assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+
+
+:root {
+  font-size: 32px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+/* setup relative height for all website */
+html, body, #app {
+  height: 100%;
+  background-color: blue;
+}
+
+#app {
+  box-sizing: border-box;
+}
